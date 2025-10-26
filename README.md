@@ -1,2 +1,3 @@
-# belko_psd_sample
-Recreate Belko's website from a .psd file
+# Belko PSD Rebuild
+
+A pixel-perfect hero section rebuild based on a provided PSD design.
