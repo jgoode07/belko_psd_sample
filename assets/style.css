@@ -1,3 +1,13 @@
+/* Design Tokens (CSS Variables) */
+:root {
+    --color-primary: #D62127;
+    /* Belko red */
+    --color-dark: #010101;
+    --color-light: #ffffff;
+    --font-base: "Poppins", Helvetica, sans-serif;
+    --space-section: 4rem;
+}
+
 /* Global Reset */
 * {
     box-sizing: border-box;
@@ -7,9 +17,9 @@
 
 /* Base Font Setup */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #222;
+    font-family: var(--font-base);
+    background-color: var(--color-light);
+    color: var(--color-dark);
     line-height: 1.5;
 }
 
@@ -31,8 +41,7 @@ body {
     display: grid;
     place-items: center;
     min-height: 60vh;
-    background: #eee;
-    /* Temporary */
+    var(--color-light);
 }
 
 /* Responsive Breakpoint Placeholder - Tablet */
