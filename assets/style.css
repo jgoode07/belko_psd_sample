@@ -37,11 +37,11 @@ body {
 }
 
 /* Hero Section placeholder */
-.hero-section {
+.hero {
     display: grid;
     place-items: center;
     min-height: 60vh;
-    var(--color-light);
+    background: var(--color-light);
 }
 
 /* Responsive Breakpoint Placeholder - Tablet */
