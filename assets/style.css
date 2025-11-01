@@ -37,11 +37,15 @@ body {
 }
 
 /* Hero Section placeholder */
-.hero {
+.hero-section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
     display: grid;
     place-items: center;
-    min-height: 60vh;
-    background: var(--color-light);
+    background: url("/assets/images/belko-bg.jpg") center/cover no-repeat;
+    color: var(--color-light);
+    text-align: center;
 }
 
 /* Responsive Breakpoint Placeholder - Tablet */
