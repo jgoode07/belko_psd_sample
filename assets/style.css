@@ -1,4 +1,6 @@
-/* Design Tokens (CSS Variables) */
+/*****************************************    
+    Design Tokens (CSS Variables) 
+*****************************************/
 :root {
     --color-primary: #D62127;
     --color-primary-hover: #de373c;
@@ -10,7 +12,9 @@
     --space-section: 4rem;
 }
 
-/* Global Reset */
+/**************************************** 
+    Global Reset 
+****************************************/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -25,7 +29,9 @@ body {
     line-height: 1.5;
 }
 
-/* Container system */
+/**************************************** 
+    Containers
+****************************************/
 .container {
     width: 100%;
     max-width: 1200px;
@@ -34,14 +40,16 @@ body {
     box-sizing: border-box;
 }
 
-/* Full-width variant (for header, hero, etc.) */
+/* Full-Width Variant (for header, hero, etc.) */
 .container-full {
     width: 100%;
     padding: 0 2.5rem;
     box-sizing: border-box;
 }
 
-/* Header layout */
+/**************************************** 
+    Header
+****************************************/
 .site-header {
     position: absolute;
     top: 0;
@@ -64,14 +72,14 @@ body {
     width: auto;
 }
 
-/* Right-side actions */
+/* Right-Side Actions */
 .header-actions {
     display: flex;
     align-items: center;
     gap: 1.25rem;
 }
 
-/* Phone link */
+/* Phone Link */
 .phone {
     color: var(--color-light);
     text-decoration: none;
@@ -82,7 +90,9 @@ body {
     text-decoration: underline;
 }
 
-/* Button */
+/**************************************** 
+    Buttons 
+****************************************/
 .btn {
     text-decoration: none;
     font-size: 0.7rem;
@@ -109,6 +119,133 @@ body {
     background-color: var(--color-secondary-hover);
 }
 
+/**************************************** 
+    Modal
+****************************************/
+/* Menu Toggle (Hamburger Button) */
+.menu-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.8rem;
+    height: 2.8rem;
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    z-index: 25;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.menu-toggle:hover {
+    background-color: var(--color-primary-hover);
+    transform: scale(1.05);
+}
+
+/* Hamburger Icon Bars */
+.menu-icon,
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    width: 1.4rem;
+    height: 2px;
+    background-color: var(--color-light);
+    border-radius: 2px;
+    transform: translateX(-50%);
+    transition: all 0.3s ease;
+}
+
+/* Center Bar */
+.menu-icon {
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Top Bar */
+.menu-icon::before {
+    top: calc(50% - 8px);
+}
+
+/* Bottom Bar */
+.menu-icon::after {
+    top: calc(50% + 6px);
+}
+
+/* Modal Window */
+.nav-modal {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 80%;
+    max-width: 320px;
+    height: 100vh;
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    z-index: 20;
+    transition: right 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.nav-modal.open {
+    right: 0;
+}
+
+.nav-modal-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: var(--color-light);
+    cursor: pointer;
+}
+
+/* Modal Nav List */
+.modal-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.modal-nav a {
+    text-decoration: none;
+    color: var(--color-light);
+    font-size: 1.2rem;
+    transition: color 0.2s ease;
+}
+
+.modal-nav a.active,
+.modal-nav a:hover {
+    color: var(--color-primary);
+}
+
+/* Modal Buttons */
+.modal-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: auto;
+}
+
+/**************************************** 
+    Hero
+****************************************/
 /* Hero Section */
 .hero-section {
     position: relative;
@@ -121,12 +258,18 @@ body {
     text-align: center;
 }
 
+/**************************************** 
+    Footer
+****************************************/
 /* Footer placeholders */
 .site-footer {
     padding: 1rem;
 }
 
-/* Responsive Breakpoint Placeholder - Tablet */
+/**************************************** 
+    Media Queries 
+****************************************/
+/* Tablet */
 @media (max-width: 768px) {
     .container {
         width: 95%;

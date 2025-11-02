@@ -14,10 +14,11 @@
 <body>
     <header class="site-header">
         <div class="container-full header-grid">
+            <!-- Logo -->
             <a href="#" class="logo">
                 <img src="assets/images/belko-logo.png" alt="Belko Auto Body" />
             </a>
-
+            <!-- Right Side Nav -->
             <div class="header-actions">
                 <a href="tel:6137457448" class="phone">(613) 745-7448</a>
                 <a href="#" class="btn secondary">Quick Contact</a>
@@ -28,11 +29,36 @@
         </div>
     </header>
 
+    <!-- Modal Navigation -->
+    <div class="nav-modal" id="navModal">
+        <div class="nav-modal-content">
+            <button class="close-btn" aria-label="Close menu">&times;</button>
+            <!-- Modal List Items -->
+            <nav class="modal-nav">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Collision Repair</a></li>
+                    <li><a href="#">Vehicle Types</a></li>
+                    <li><a href="#">Paint Systems</a></li>
+                    <li><a href="#">Metal Work</a></li>
+                    <li><a href="#">Surface Prep</a></li>
+                    <li><a href="#">Trailer Services</a></li>
+                </ul>
+            </nav>
+            <!-- Modal Buttons -->
+            <div class="modal-actions">
+                <a href="#" class="btn secondary">Quick Contact</a>
+                <a href="#" class="btn primary">Talk to an Expert</a>
+            </div>
+        </div>
+    </div>
 
     <main>
+        <!-- Hero -->
         <section class="hero-section">
             <div class="hero-overlay"></div>
 
+            <!-- Hero Content -->
             <div class="container hero-grid">
                 <div class="hero-content">
                     <h1>Repair · Restore · Drive</h1>
@@ -42,6 +68,7 @@
                         surrounding areas, and beyond Since 1994.
                     </p>
 
+                    <!-- Hero Buttons -->
                     <div class="hero-cta">
                         <a href="#" class="btn primary">Our Services</a>
                         <a href="#" class="btn primary">Talk to an Expert</a>
@@ -49,15 +76,17 @@
                 </div>
             </div>
         </section>
-
-
     </main>
 
+    <!-- Placeholder Footer -->
     <footer class="site-footer">
         <div class="container">
             <p>© 2025 Belko Rebuild</p>
         </div>
     </footer>
+
+    <!-- Javascript -->
+    <script src="assets/app.js"></script>
 </body>
 
 </html>
