@@ -1,7 +1,9 @@
 /* Design Tokens (CSS Variables) */
 :root {
     --color-primary: #D62127;
+    --color-primary-hover: #de373c;
     --color-secondary: #1b7ab0;
+    --color-secondary-hover: #2c8ac0;
     --color-dark: #010101;
     --color-light: #ffffff;
     --font-base: "Poppins", Helvetica, sans-serif;
@@ -96,6 +98,15 @@ body {
 
 .btn.secondary {
     background-color: var(--color-secondary);
+}
+
+/* Button Hover */
+.btn.primary:hover {
+    background-color: var(--color-primary-hover);
+}
+
+.btn.secondary:hover {
+    background-color: var(--color-secondary-hover);
 }
 
 /* Hero Section */
