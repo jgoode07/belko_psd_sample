@@ -1,7 +1,7 @@
 /* Design Tokens (CSS Variables) */
 :root {
     --color-primary: #D62127;
-    /* Belko red */
+    --color-secondary: #1b7ab0;
     --color-dark: #010101;
     --color-light: #ffffff;
     --font-base: "Poppins", Helvetica, sans-serif;
@@ -27,8 +27,7 @@ body {
 .container {
     width: 100%;
     max-width: 1200px;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding: 0 2.5rem;
     margin: 0 auto;
     box-sizing: border-box;
 }
@@ -36,8 +35,7 @@ body {
 /* Full-width variant (for header, hero, etc.) */
 .container-full {
     width: 100%;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
+    padding: 0 2.5rem;
     box-sizing: border-box;
 }
 
@@ -47,7 +45,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.5rem 0;
+    padding: 1.8rem 0;
     z-index: 10;
     background: transparent;
 }
@@ -60,7 +58,7 @@ body {
 
 /* Logo */
 .logo img {
-    height: 2rem;
+    height: 1.8rem;
     width: auto;
 }
 
@@ -83,20 +81,28 @@ body {
 }
 
 /* Button */
-.btn.secondary {
-    background-color: #1b7ab0;
-    padding: 0.6rem 1.25rem;
-    border-radius: 2px;
+.btn {
     text-decoration: none;
-    color: var(--color-light);
     font-size: 0.7rem;
+    color: var(--color-light);
+    border-radius: 2px;
+    padding: 0.6rem 1.25rem;
+    transition: background-color 0.2s ease;
+}
+
+.btn.primary {
+    background-color: var(--color-primary);
+}
+
+.btn.secondary {
+    background-color: var(--color-secondary);
 }
 
 /* Hero Section */
 .hero-section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 85vh;
     display: grid;
     place-items: center;
     background: url("/assets/images/belko-bg.jpg") center/cover no-repeat;
