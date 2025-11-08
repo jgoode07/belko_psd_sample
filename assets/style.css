@@ -127,8 +127,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 2.8rem;
-    height: 2.8rem;
+    width: 3.5rem;
+    height: 3.5rem;
     background-color: var(--color-primary);
     border: none;
     border-radius: 50%;
@@ -152,7 +152,7 @@ body {
     position: absolute;
     left: 50%;
     width: 1.4rem;
-    height: 2px;
+    height: 1.4px;
     background-color: var(--color-light);
     border-radius: 2px;
     transform: translateX(-50%);
