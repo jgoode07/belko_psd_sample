@@ -258,6 +258,28 @@ body {
     text-align: center;
 }
 
+/* Hero Title */
+.hero-title {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 600;
+    line-height: 1.1;
+    color: var(--color-light);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* Dot styling */
+.hero-title .dot {
+    font-size: 0.8em;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 /**************************************** 
     Footer
 ****************************************/
