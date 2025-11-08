@@ -55,7 +55,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1.8rem 0;
+    padding: 2.4rem 1.8rem;
     z-index: 10;
     background: transparent;
 }
@@ -68,7 +68,7 @@ body {
 
 /* Logo */
 .logo img {
-    height: 1.8rem;
+    height: 2.6rem;
     width: auto;
 }
 
@@ -83,7 +83,7 @@ body {
 .phone {
     color: var(--color-light);
     text-decoration: none;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .phone:hover {
