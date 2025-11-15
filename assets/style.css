@@ -252,7 +252,7 @@ body {
 .hero-section {
     position: relative;
     width: 100%;
-    min-height: 100vh;
+    min-height: 98vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -368,10 +368,7 @@ body {
     gap: 1rem;
 }
 
-/**************************************** 
-    Hero Scroll (Diagonal Button)
-****************************************/
-
+/* Hero Scroll (Diagonal Button) */
 .hero-scroll {
     position: absolute;
     bottom: 0;
@@ -406,6 +403,32 @@ body {
     pointer-events: auto;
 }
 
+/* Right-Side Vertical Tab */
+.hero-location-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 160px;
+    padding: 0 8px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 0.85rem;
+    letter-spacing: 0.02rem;
+    transition: background 0.3s ease;
+    z-index: 99;
+}
+
+.hero-location-btn:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
 
 /**************************************** 
     Footer
