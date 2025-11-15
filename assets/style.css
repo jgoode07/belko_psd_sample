@@ -376,7 +376,7 @@ body {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 18vw;
+    width: 15vw;
     height: 45vh;
     background: linear-gradient(to top right,
             var(--color-primary) 50%,
@@ -386,11 +386,15 @@ body {
     justify-content: center;
     padding-bottom: 3rem;
     text-decoration: none;
+    pointer-events: none;
 }
 
 .hero-scroll-btn {
-    width: 90px;
-    height: 90px;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    width: 80px;
+    height: 80px;
     border: 2px solid var(--color-light);
     border-radius: 50%;
     display: flex;
@@ -399,6 +403,7 @@ body {
     color: var(--color-light);
     font-size: 0.9rem;
     font-weight: 500;
+    pointer-events: auto;
 }
 
 
