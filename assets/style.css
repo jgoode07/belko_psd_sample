@@ -409,14 +409,14 @@ body {
     right: 0;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 48px;
-    height: 160px;
+    width: 45px;
+    height: 180px;
     padding: 0 8px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
