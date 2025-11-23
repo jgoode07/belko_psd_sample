@@ -534,3 +534,22 @@ body {
         width: auto;
     }
 }
+
+/* 775px */
+@media (max-width: 775px) {
+
+    /* Hide phone + quick contact */
+    .phone,
+    .header-actions .btn.secondary {
+        display: none;
+    }
+
+    .hero-section {
+        min-height: 130vh;
+        padding-top: calc(var(--space-section) + 5rem);
+    }
+
+    .hero-title span:last-child {
+        display: block;
+    }
+}
