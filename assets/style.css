@@ -517,3 +517,20 @@ body {
         display: none;
     }
 }
+
+/* ~825px */
+@media (max-width: 825px) {
+
+    /* Force "Repair" onto its own line */
+    .hero-title span:first-child {
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 0.9;
+    }
+
+    /* Reset "Drive" width to wrap it to next line */
+    .hero-title span:last-child {
+        width: auto;
+    }
+}
