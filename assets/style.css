@@ -419,7 +419,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 45px;
-    height: 180px;
+    height: 185px;
     padding: 0 8px;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -430,7 +430,7 @@ body {
 }
 
 .hero-location-btn:hover {
-    background: rgba(0, 0, 0, 0.9);
+    background: #252525;
 }
 
 /**************************************** 
