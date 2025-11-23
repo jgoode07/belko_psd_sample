@@ -218,9 +218,9 @@ body {
     top: 0;
     right: -100%;
     width: 80%;
-    max-width: 320px;
+    max-width: 420px;
     height: 100vh;
-    background-color: var(--color-dark);
+    background: #1E1E1E;
     color: var(--color-light);
     z-index: 10;
     transition: right 0.3s ease-in-out;
@@ -238,6 +238,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 4rem 2rem;
 }
 
 /* Modal Nav List */
@@ -264,6 +265,7 @@ body {
 .modal-actions {
     display: flex;
     flex-direction: column;
+    text-align: center;
     gap: 1rem;
     margin-top: auto;
 }
@@ -449,11 +451,11 @@ body {
     font-size: 0.85rem;
     letter-spacing: 0.02rem;
     transition: background 0.3s ease;
-    z-index: 99;
+    z-index: 2;
 }
 
 .hero-location-btn:hover {
-    background: #252525;
+    background: #1E1E1E;
 }
 
 /**************************************** 
