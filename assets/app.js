@@ -3,7 +3,8 @@ const navModal = document.getElementById('navModal');
 const closeBtn = document.querySelector('.close-btn');
 
 menuToggle.addEventListener('click', () => {
-    navModal.classList.add('open');
+    const isOpen = navModal.classList.toggle('open');
+    menuToggle.classList.toggle('open', isOpen);
 });
 
 closeBtn.addEventListener('click', () => {
