@@ -77,6 +77,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.25rem;
+    padding: 0.15rem 4.35rem 0 0;
 }
 
 /* Phone Link */
@@ -127,17 +128,18 @@ body {
 /* Menu Toggle (Hamburger Button) */
 .menu-toggle {
     display: flex;
+    position: fixed;
+    top: 2.4rem;
+    right: 3.9rem;
     align-items: center;
     justify-content: center;
-    width: 3.5rem;
-    height: 3.5rem;
+    width: 3.6rem;
+    height: 3.6rem;
     background-color: var(--color-primary);
     border: none;
     border-radius: 50%;
     cursor: pointer;
-    position: relative;
     z-index: 25;
-    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .menu-toggle:hover {
@@ -154,7 +156,7 @@ body {
     position: absolute;
     left: 50%;
     width: 1.4rem;
-    height: 1.4px;
+    height: 2px;
     background-color: var(--color-light);
     border-radius: 2px;
     transform: translateX(-50%);
@@ -552,4 +554,8 @@ body {
     .hero-title span:last-child {
         display: block;
     }
+}
+
+.temp-container {
+    height: 1000px;
 }
