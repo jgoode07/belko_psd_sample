@@ -166,17 +166,20 @@ body {
 /* Center Bar */
 .menu-icon {
     top: 50%;
+    left: 46%;
     transform: translate(-50%, -50%);
 }
 
 /* Top Bar */
 .menu-icon::before {
     top: calc(50% - 8px);
+    left: 65%;
 }
 
 /* Bottom Bar */
 .menu-icon::after {
     top: calc(50% + 6px);
+    left: 65%;
 }
 
 /* Modal Window */
