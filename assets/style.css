@@ -60,7 +60,7 @@ body {
     background: transparent;
 }
 
-.header-grid {
+.header-flex {
     display: flex;
     align-items: center;
     justify-content: space-between;
