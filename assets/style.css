@@ -508,6 +508,17 @@ body {
     letter-spacing: 0.01em;
 }
 
+/* Heading separator image */
+.service-title::after {
+    content: "";
+    display: block;
+    /* Image as background */
+    background: url("images/heading-separator.png") center center / 60px 35px no-repeat;
+    width: 60px;
+    height: 35px;
+    margin: 1rem auto 2rem;
+}
+
 .service-text {
     font-size: 1.05rem;
     font-weight: 400;
