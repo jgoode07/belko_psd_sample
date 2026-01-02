@@ -526,6 +526,94 @@ body {
     color: rgba(255, 255, 255, 0.9);
 }
 
+/****************************************
+  Surface Prep - White Split Section
+****************************************/
+.surface-split {
+    background: var(--color-light);
+    color: var(--color-dark);
+    padding: 8.5rem 0 5.5rem;
+}
+
+.surface-split-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.35fr;
+    gap: 3.25rem;
+    align-items: start;
+}
+
+.surface-left {
+    max-width: 520px;
+    margin: auto
+}
+
+.surface-h2 {
+    font-size: 3.1rem;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 1.25rem;
+}
+
+.surface-lead {
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+}
+
+.surface-body {
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: #4a4a4a;
+    margin-bottom: 1.75rem;
+}
+
+.surface-cta {
+    display: inline-block;
+}
+
+/* Right-side media */
+.surface-media {
+    position: relative;
+    width: 100%;
+    height: 520px;
+    background: #eee;
+    overflow: hidden;
+    border-radius: 2px;
+}
+
+.surface-media-asset {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Overlay card */
+.surface-card {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: min(420px, 86%);
+    padding: 2.25rem 2.25rem;
+    background: rgba(0, 0, 0, 0.88);
+    color: var(--color-light);
+}
+
+.surface-card h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 1.05;
+    margin-bottom: 0.9rem;
+}
+
+.surface-card p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    opacity: 0.9;
+}
+
+
 /**************************************** 
     Media Queries 
 ****************************************/
