@@ -29,6 +29,17 @@ body {
     line-height: 1.5;
 }
 
+/*****************************************
+  Utilities
+*****************************************/
+.text-red {
+    color: var(--color-primary);
+}
+
+.light-bold {
+    font-weight: 600;
+}
+
 /**************************************** 
     Containers
 ****************************************/
@@ -738,6 +749,47 @@ body {
 /**************************************** 
     Surface Prep Page
 ****************************************/
+
+/****************************************
+  Responsive
+****************************************/
+@media (max-width: 1050px) {
+    .surface-split-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .surface-left {
+        max-width: 720px;
+    }
+
+    .surface-media {
+        height: 460px;
+    }
+}
+
+@media (max-width: 775px) {
+    .surface-split {
+        padding: 7.5rem 0 4.5rem;
+    }
+
+    .surface-h1 {
+        font-size: 2.4rem;
+    }
+
+    .surface-card {
+        position: static;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .surface-media {
+        height: auto;
+    }
+
+    .surface-media-asset {
+        height: 340px;
+    }
+}
 
 .temp-container {
     height: 1000px;
