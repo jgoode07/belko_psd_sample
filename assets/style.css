@@ -488,8 +488,9 @@ body {
 }
 
 .service-intro {
+    height: 85vh;
     background: var(--color-dark);
-    padding: 12rem 0 7rem;
+    padding: 15rem 0 7rem;
     text-align: center;
 }
 
@@ -499,7 +500,7 @@ body {
 }
 
 .service-intro-content {
-    max-width: 760px;
+    max-width: 740px;
 }
 
 .service-title {
@@ -613,9 +614,16 @@ body {
     opacity: 0.9;
 }
 
+/****************************************
+*****************************************
+***************************************** 
+    MEDIA QUERIES 
+*****************************************
+*****************************************    
+****************************************/
 
 /**************************************** 
-    Media Queries 
+    Home Page
 ****************************************/
 /* 1400px */
 @media (max-width: 1400px) {
@@ -726,6 +734,10 @@ body {
         display: block;
     }
 }
+
+/**************************************** 
+    Surface Prep Page
+****************************************/
 
 .temp-container {
     height: 1000px;
