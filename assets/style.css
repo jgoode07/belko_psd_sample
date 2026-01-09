@@ -517,21 +517,23 @@ body {
 }
 
 .footer-heading {
-    font-size: 1.05rem;
-    font-weight: 600;
+    font-size: 0.9rem;
+    font-weight: 400;
 }
 
 .footer-link {
     color: var(--color-light);
+    font-size: 0.85rem;
     text-decoration: none;
 }
 
 .footer-link:hover {
-    text-decoration: underline;
+    color: var(--color-light);
+    transition: color 0.2s ease-in-out;
 }
 
 .footer-link--blue {
-    color: var(--color-secondary);
+    color: #8accf6;
 }
 
 /* Red vertical divider between right columns */
