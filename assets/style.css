@@ -295,14 +295,14 @@ body {
 .hero-section {
     position: relative;
     width: 100%;
-    min-height: 97vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     background: url("/assets/images/belko-bg.jpg") center/cover no-repeat;
     color: var(--color-light);
-    padding-top: calc(var(--space-section) + 8rem);
+    padding-top: calc(var(--space-section) + 12rem);
 }
 
 /* Hero Title */
@@ -410,7 +410,6 @@ body {
 .hero-cta {
     display: flex;
     flex-direction: row;
-    margin-top: -1rem;
     gap: 1rem;
 }
 
@@ -649,10 +648,6 @@ body {
 
 /* 1050px */
 @media (max-width: 1050px) {
-    .hero-section {
-        min-height: 108vh;
-    }
-
     .hero-title {
         line-height: 0.95;
     }
@@ -677,8 +672,7 @@ body {
 /* 950px */
 @media (max-width: 950px) {
     .hero-section {
-        min-height: 118vh;
-        padding-top: calc(var(--space-section) + 5.5rem);
+        padding-top: calc(var(--space-section) + 12rem);
     }
 
     .hero-title {
@@ -699,11 +693,6 @@ body {
     .hero-side {
         margin-top: 7rem;
         align-items: center;
-    }
-
-    /* Reduce space between spinning logo + buttons */
-    .hero-cta {
-        margin-top: -3rem;
     }
 }
 
@@ -741,8 +730,7 @@ body {
     }
 
     .hero-section {
-        min-height: 130vh;
-        padding-top: calc(var(--space-section) + 5rem);
+        padding-top: calc(var(--space-section) + 12rem);
     }
 
     .hero-title span:last-child {
