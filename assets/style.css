@@ -479,9 +479,67 @@ body {
 /**************************************** 
     Footer
 ****************************************/
-/* Footer placeholders */
 .site-footer {
-    padding: 1rem;
+    background: var(--color-dark);
+    color: var(--color-light);
+    padding: 4.25rem 0;
+}
+
+.site-footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Left group */
+.footer-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-logo {
+    height: 2.65rem;
+    width: auto;
+}
+
+.footer-legal p {
+    font-size: 0.75rem;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+/* Right group */
+.footer-right {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.footer-heading {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
+
+.footer-link {
+    color: var(--color-light);
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-link--blue {
+    color: var(--color-secondary);
+}
+
+/* Red vertical divider between right columns */
+.footer-divider {
+    width: 2px;
+    height: 85px;
+    background: var(--color-primary);
+    opacity: 0.95;
 }
 
 /****************************************
