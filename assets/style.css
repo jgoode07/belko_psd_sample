@@ -932,8 +932,27 @@ body {
         height: 3.5rem;
     }
 
+    .hero-slogan {
+        display: none;
+    }
+
     .hero-location-btn {
         display: none;
+    }
+
+    .nav-modal {
+        width: 100vw;
+        max-width: none;
+        padding: 1.5rem 2.25rem;
+    }
+
+    .nav-modal-content {
+        padding: 6.5rem 0 0;
+        gap: 2rem;
+    }
+
+    .modal-nav a {
+        font-size: 1.6rem;
     }
 }
 
