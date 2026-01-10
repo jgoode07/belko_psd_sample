@@ -60,13 +60,13 @@ As part of this rebuild, key pages were reviewed using standard frontend validat
 - Best Practices: 96
 - SEO: 91
 
-<img src="assets/audits/lighthouse_report.png" alt="Lighthouse audit – homepage" width="720">
-
 #### Surface Prep Page
 - Performance: 100
 - Accessibility: 100
 - Best Practices: 96
 - SEO: 91
+
+<img src="assets/audits/lighthouse_report.png" alt="Lighthouse audit – homepage" width="720">
 
 *(Scores may vary slightly depending on environment and network conditions.)*
 
