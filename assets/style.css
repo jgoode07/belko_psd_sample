@@ -1000,3 +1000,38 @@ body {
         height: 340px;
     }
 }
+
+@media (max-width: 520px) {
+    .service-intro {
+        padding: 10rem 0 4rem;
+    }
+
+    .service-title {
+        font-size: 3rem;
+    }
+
+    .service-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .surface-lead {
+        font-size: 1.1rem;
+    }
+
+    .surface-media-asset {
+        height: auto;
+    }
+
+    .surface-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .surface-card p {
+        font-size: 0.85rem;
+    }
+
+    .surface-card {
+        padding: 2rem 1.5rem;
+    }
+}
