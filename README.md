@@ -49,6 +49,32 @@ The embedded video is a low-quality placeholder (under 10 MB) used strictly to d
 - Google Fonts: *Poppins*  
 - Chrome DevTools  
 
+## Performance, Accessibility & SEO
+
+As part of this rebuild, key pages were reviewed using standard frontend validation and auditing tools to ensure performance, accessibility, and SEO best practices were met.
+
+### Lighthouse (Chrome DevTools – Desktop)
+#### Homepage
+- Performance: 100
+- Accessibility: 100
+- Best Practices: 96
+- SEO: 91
+
+<img src="assets/audits/lighthouse_report.png" alt="Lighthouse audit – homepage" width="720">
+
+#### Surface Prep Page
+- Performance: 100
+- Accessibility: 100
+- Best Practices: 96
+- SEO: 91
+
+*(Scores may vary slightly depending on environment and network conditions.)*
+
+### Validation
+- HTML validated using W3C Markup Validation Service
+- CSS validated using W3C CSS Validator
+- No critical errors or blocking issues detected
+
 ## Project Status
 ✔ Demonstration complete  
 ✔ Core layout and interaction goals achieved  
